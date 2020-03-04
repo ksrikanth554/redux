@@ -29,7 +29,7 @@ List<CartItem> addItem(List<CartItem> items,AddItemAction action){
 }
 List<CartItem> toggleState(List<CartItem> items,ToggleStateAction action){
 
-  List<CartItem> lsItems=items.map((item)=>item.name==action.item.name?action.item:item);
+  List<CartItem> lsItems=items.map((item)=>item.name==action.item.name?action.item:item).toList();
   return lsItems;
 
 }

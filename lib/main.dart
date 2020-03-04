@@ -27,7 +27,6 @@ void main(){
           theme: ThemeData.dark(),
           debugShowCheckedModeBanner: false,
           home: ShoppingCart(store:store),
-
         ),
       );
     }
